@@ -1,0 +1,9 @@
+streamlit
+langgraph
+langchain-core
+groq
+chromadb
+python-dotenv
+pydantic
+requests
+schedule
