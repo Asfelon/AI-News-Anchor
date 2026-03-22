@@ -1,0 +1,12 @@
+# Environments
+.env
+
+# ChromaDB Vector Database (Too heavy for Git, let users build their own)
+news_vector_db/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store

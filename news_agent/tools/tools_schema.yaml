@@ -1,0 +1,13 @@
+news_tool_schema:
+  type: function
+  function:
+    name: hybrid_news_search
+    description: Search for news updates. Automatically checks the internal historical database first, and searches the live web if no historical context is found.
+    parameters:
+      type: object
+      properties:
+        keywords:
+          type: string
+          description: 3 to 5 highly specific search keywords to find the best news.
+      required:
+        - keywords
