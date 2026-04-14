@@ -2,7 +2,7 @@ import schedule
 import time
 
 # Import your pipeline functions and the dynamic variable
-from pipeline_tools import run_garbage_collection, refresh_knowledge_base, SCHEDULE_HOURS
+from news_agent.tools.pipeline_tools import run_garbage_collection, refresh_knowledge_base, SCHEDULE_HOURS
 
 def execute_pipeline():
     """The master pipeline execution order."""
